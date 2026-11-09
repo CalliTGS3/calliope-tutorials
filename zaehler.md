@@ -21,16 +21,6 @@ basic.forever(function () {
 })
 ```
 
-## Step 2
-
-### Zähler in Variable speichern
-
-Um die angezeigte Zahl mit den Knöpfen A und B am Calliope verändern zu können, dürfen wir sie nicht direkt in den Block ``||basic: Zeige Zahl||`` programmieren, sondern müssen sie in einer Variable speichern.
-In einer Variable kannst du in einem Computer Zahlen, Buchstaben, Wörter oder Listen aufbewahren.
-Man kann zum Beipiel eine Zahl in eine Variable schreiben und sie später wieder auslesen.
-Erstelle eine Variable namens ``||Zähler||``, indem du auf den Bereich ``||variables:Variablen||`` klickst.
-
-
 ## Step 3
 
 Nach dem Erstellen erscheinen nun die Blöcke ``||variables:Setze||`` und ``||Variables:ändere um||`` im Bereich ``||Variables:Variablen||``. <br>
