@@ -24,12 +24,12 @@ basic.forever(function () {
 Um die angezeigte Zahl mit den Knöpfen A und B am Calliope verändern zu können, dürfen wir sie nicht direkt in den Block ``||basic: zeige Zahl||`` programmieren, sondern müssen sie in einer Variable speichern. <br>
 In einer Variable kannst du in einem Computer Zahlen, Buchstaben, Wörter oder Listen aufbewahren. <br>
 Man kann zum Beipiel eine Zahl in eine Variable schreiben und sie später wieder auslesen.
-Erstelle eine Variable namens ``||Variables:Zähler||``, indem du auf den Bereich ``||Variables:Variablen||`` klickst. <br>
+Erstelle eine Variable namens ``||variables.Zähler||``, indem du auf den Bereich ``||variables:Variablen||`` klickst. <br>
 
 
 ## Step 3
 
-Nach dem Erstellen erscheinen nun die Blöcke ``||Variables:setze auf||`` und ``||Variables:ändere um||`` im Bereich ``||Variables:Variablen||``. <br>
+Nach dem Erstellen erscheinen nun die Blöcke ``||variables:Setze||`` und ``||Variables:ändere um||`` im Bereich ``||Variables:Variablen||``. <br>
 Den Block ``||Variables:setze auf ||`` setzt Du in den Programmblock ``||basic:beim Start||``. 
 So wird der Variable beim Start des Calliope der Wert 0 zugewiesen. <br>
 
