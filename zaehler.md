@@ -8,6 +8,8 @@ Man kann solche Handzähler zum Beispiel benutzen, um die Personen in einem Raum
 
 ## Step 1 @fullscreen
 
+### Zähler in Variable speichern
+
 Auf dem 5x5 Display des Calliope mini wollen wir die gezählten Dinge oder Personen anzeigen.
 Wir nehmen den Block ``||basic: Zeige Zahl||``. <br>
 Dieser wird in den Block ``||basic:Dauerhaft||`` geschoben. Im Simulator wird dir nun die Zahl angezeigt, welche im Block ``||basic: Zeige Zahl||`` steht. <br>
