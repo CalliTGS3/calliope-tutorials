@@ -19,7 +19,7 @@ basic.forever(function () {
 })
 ```
 
-## Schritt 2 @fullscreen
+## Step 2 @fullscreen
 
 Um die angezeigte Zahl mit den Knöpfen A und B am Calliope verändern zu können, dürfen wir sie nicht direkt in den Block ``||basic: zeige Zahl||`` programmieren, sondern müssen sie in einer Variable speichern. <br>
 In einer Variable kannst du in einem Computer Zahlen, Buchstaben, Wörter oder Listen aufbewahren. <br>
@@ -27,7 +27,7 @@ Man kann zum Beipiel eine Zahl in eine Variable schreiben und sie später wieder
 Erstelle eine Variable namens ``||Variables:Zähler||``, indem du auf den Bereich ``||Variables:Variablen||`` klickst. <br>
 
 
-## Schritt 3
+## Step 3
 
 Nach dem Erstellen erscheinen nun die Blöcke ``||Variables:setze auf||`` und ``||Variables:ändere um||`` im Bereich ``||Variables:Variablen||``. <br>
 Den Block ``||Variables:setze auf ||`` setzt Du in den Programmblock ``||basic:beim Start||``. 
@@ -38,7 +38,7 @@ let Zähler = 0
 Zähler = 0
 ```
 
-## Schritt 4
+## Step 4
 
 Um uns jetzt die gespeicherte Zahl dauernd anzeigen zu lassen, nehmen wir den Block ``||Variables:Zähler||`` und schieben ihn in den Block ``||basic: zeige Zahl||``. <br>
 
@@ -48,7 +48,7 @@ basic.forever(function () {
 })
 ```
 
-## Schritt 5
+## Step 5
 
 Die Variable kannst mit einem Knopfdruck auf Taste A erhöhen, indem Du den Block ``||input:wenn Knopf A gedrückt||`` aus dem Bereich ``||input:Eingaben||`` nehmen und uns hier den Block ``||Variables:ändere um 1 ||`` hineinschieben. <br>
 Da in dem Block "ändere um 1" steht, erhöht sich die Variable um eins bei jedem Drücken des Knopfes.
@@ -61,7 +61,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
 ```
 
 
-## Schritt 6
+## Step 6
 
 Die Variable kannst mit einem Knopfdruck auf Taste B verringen, indem Du den Block ``||input:wenn Knopf B gedrückt||`` aus dem Bereich ``||input:Eingaben||`` nehmen und uns hier den Block ``||Variables:ändere um 1 ||`` hineinschieben. <br>
 (Hinweis. Schiebe erst den Block ``||input:wenn Knopf A gedrückt||`` in Dein Programm und ändere dann den Knopf auf ``||input:B||``)
@@ -75,7 +75,7 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
 ```
 
 
-## Schritt 7
+## Step 7
 
 Um den Zähler auch wieder zurücksetzen zu können, kann man beispielsweise die Tasten A und B gleichzeitig drücken, wenn hier in den Block ``||input:wenn Knopf A+B gedrückt||`` 
 der Block ``||Variables:setze auf 0 ||`` geschoben wird.
@@ -88,7 +88,7 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
 ```
 
 
-## Schritt 8 @fullscreen
+## Step 8 @fullscreen
 So sollte Dein Programm jetzt aussehen:
 ```blocks
 let Zähler = 0
@@ -108,18 +108,18 @@ basic.forever(function () {
 ```
 
 
-## Schritt 9
+## Step 9
 
 Schau Dir im @boardname@ Simulator Dein Programm an, Du kannst dort auch mit der Maus die beiden Tasten A und B bedienen.
 
 
-## Schritt 10
+## Step 10
 
 Schliesse Deinen @boardname@ mit einem USB Kabel an und drücke auf ``|Herunterladen|``. Speichere Dein Programm auf dem Laufwerk **@drivename@**. 
 Damit wird Dein Programm zum @boardname@ übertragen.
 
 
-## Schritt 11
+## Step 11
 Nach dem Fertigstellen:
 Im Hauptmenü von makecode findest Du den Menüpunkt ``|Teilen|``. 
 Klicke darauf, Du siehst anschließend ein Fenster in der Mitte mit dem Namen des Projektes. 
@@ -127,7 +127,7 @@ Klicke auf die Schaltfläche ``|Projekt veröffentlichen|`` und dann auf ``|Link
 Danach kannst Du diesen Link in der Schulcloud als Lösung zu der Aufgabe eintragen.
 
 
-## Schritt 12
+## Step 12
 
 Gut gemacht! Du hast einen Klickzähler für den @boardname@ geschrieben.
 Verlasse diese Anleitung, indem Du auf ``|Fertigstellen|`` klickst. 
