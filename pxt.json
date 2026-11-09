@@ -23,7 +23,8 @@
         "klickzaehler.md",
         "kompass.md",
         "fang-den-ball.md",
-        "zweiwuerfel.md"
+        "zweiwuerfel.md",
+        "zaehler.md"
     ],
     "testFiles": [
         "test.ts"
