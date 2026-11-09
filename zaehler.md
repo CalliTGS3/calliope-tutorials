@@ -6,9 +6,9 @@ Um einfach Dinge oder Personen zu zählen, verwendet man oft sogenannte Handzäh
 Man kann solche Handzähler zum Beispiel benutzen, um die Personen in einem Raum zu zählen, auch wenn ständig jemand hineingeht oder herauskommt.
 
 
-## Step 1 @fullscreen
+## Step 1
 
-### Zähler in Variable speichern
+### Zähler anzeigen
 
 Auf dem 5x5 Display des Calliope mini wollen wir die gezählten Dinge oder Personen anzeigen.
 Wir nehmen den Block ``||basic: Zeige Zahl||``. <br>
@@ -21,7 +21,9 @@ basic.forever(function () {
 })
 ```
 
-## Step 2 @fullscreen
+## Step 2
+
+### Zähler in Variable speichern
 
 Um die angezeigte Zahl mit den Knöpfen A und B am Calliope verändern zu können, dürfen wir sie nicht direkt in den Block ``||basic: zeige Zahl||`` programmieren, sondern müssen sie in einer Variable speichern. <br>
 In einer Variable kannst du in einem Computer Zahlen, Buchstaben, Wörter oder Listen aufbewahren. <br>
