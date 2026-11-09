@@ -1,6 +1,8 @@
 # Dieses Repository enthält folgende Tutorials für das Programmieren des Calliope mini mit Makecode V4: 
 
 
+- **Klickzähler:** https://makecode.calliope.cc/#tutorial:https://github.com/CalliTGS3/calliope-tutorials/zaehler
+
 - **Erste Schritte:** https://makecode.calliope.cc/#tutorial:https://github.com/CalliTGS3/calliope-tutorials/erste-schritte
 
 - **Fang den Ball:** https://makecode.calliope.cc/#tutorial:https://github.com/CalliTGS3/calliope-tutorials/fang-den-ball
